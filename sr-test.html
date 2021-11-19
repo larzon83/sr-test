@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="lang">
+		<title>Document</title>
+		<style>
+			:root {
+				--sr-theme-product-background: #ffffff !important;
+				--sr-theme-color: #000000 !important;
+				--sr-theme-background: #e7b517 !important;
+				--sr-theme-product-title: #000000 !important;
+				--sr-theme-product-price: #00594c !important;
+				--sr-theme-product-summary: #000000 !important;
+				--sr-theme-view-product-background: #e7b517 !important;
+				--sr-theme-view-product-color: #000000 !important;
+				--sr-theme-view-cart-color: #000000 !important;
+				--sr-theme-view-cart-background: #e7b517 !important;
+				--sr-theme-basket-background: #ffffff !important;
+				--sr-theme-basket-color: #e7b517 !important;
+				--sr-theme-basket-text-color: #000000 !important;
+				--sr-theme-basket-counter-background: #e7b517 !important;
+				--sr-theme-basket-counter-color: #000000 !important;
+				--sr-theme-cart-background: #ffffff !important;
+				--sr-theme-cart-body-text: #666666 !important;
+				--sr-theme-cart-button-background: #e7b517 !important;
+				--sr-theme-cart-button-color: #000000 !important;
+				--sr-theme-cart-border-color: #eeeeee !important;
+				--sr-theme-cart-links-text-color: #808b97 !important;
+			}
+
+			.sr-footer-logo,
+			.sr-cart .sr-logo-link,
+      /* .sr-model-details-data h2, */
+			.sr-ribbons {
+				display: none !important;
+			}
+
+			.sr-modal-container *,
+			.sr-alert-modal-container *,
+			.sr-review-modal-container *,
+			.sr-products *,
+			.sr-filters-wrap *,
+			.sr-paginate *,
+			.sr-cart-container * {
+				font-family: Quicksand, sans-serif !important;
+				letter-spacing: normal !important;
+			}
+
+			.sr-modal-container *,
+			.sr-alert-modal-container *,
+			.sr-review-modal-container *,
+			.sr-products *,
+			.sr-filters-wrap *,
+			.sr-paginate * {
+				font-size: 16px !important;
+				/* line-height: 26px !important; */
+			}
+
+			@media screen and (min-width: 768px) {
+				.sr-modal-container *,
+				.sr-alert-modal-container *,
+				.sr-review-modal-container *,
+				.sr-products *,
+				.sr-filters-wrap *,
+				.sr-paginate * {
+					font-size: 18px !important;
+					/* line-height: 28px !important; */
+				}
+			}
+
+			.sr-products,
+			.sr-modal-container .sr-modal .sr-modal-body,
+			.sr-modal-details {
+				padding: 0 !important;
+			}
+
+			.sr-modal,
+			select.sr-select,
+			.sr-modal-container select.sr-select {
+				color: var(--sr-theme-color) !important;
+			}
+
+			.sr-element input[type='checkbox'],
+			.sr-element input[type='radio'] {
+				align-self: center;
+			}
+
+			.sr-add-to-cart,
+			.sr-view-cart {
+				width: auto !important;
+				padding: 8px 16px !important;
+				border-radius: 40px !important;
+
+				font-size: 16px !important;
+				line-height: 26px !important;
+				font-weight: 500 !important;
+				font-family: Quicksand, sans-serif !important;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				font-smoothing: antialiased;
+				text-rendering: optimizeLegibility;
+			}
+			.sr-add-to-cart span,
+			.sr-view-cart span {
+				font-size: 16px !important;
+				line-height: 26px !important;
+				font-weight: 500 !important;
+				font-family: Quicksand, sans-serif !important;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				font-smoothing: antialiased;
+				text-rendering: optimizeLegibility;
+			}
+
+			@media screen and (max-width: 767px) {
+				.sr-add-to-cart,
+				.sr-view-cart {
+					margin: 0 auto !important;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="sr-element sr-products" data-embed="single_product_full_page">
+			<script type="application/json">
+				{
+					"store_id": "1235",
+					"publishable_key": "sr_live_pk_f8e7fa495cc9ecb09969886d0fb3590846d4",
+					"options": {
+						"product_to_display": "12553",
+						"image_dimension_value": "crop",
+						"image_width": "570",
+						"image_height": "700"
+					},
+					"includes": {
+						"show_product_name": "0",
+						"show_product_price": "1",
+						"show_product_summary": "1",
+						"show_product_description": "0",
+						"show_product_image": "0",
+						"show_add_to_cart_button": "1",
+						"show_select_quantity": "1",
+						"show_image_thumbnails": "0",
+						"show_product_reviews": "0",
+						"show_product_sku": "0",
+						"show_product_categories": "0",
+						"show_social_sharing_icons": "0",
+						"show_related_products": "0",
+						"thumbnail_layout": "horizontal_below",
+						"variation_styling": "dropdown",
+						"show_min_max_order_quantity": "1",
+						"show_sale": "0",
+						"show_free_shipping": "0",
+						"show_new_product": "0",
+						"show_digital_download": "0",
+						"show_product_tabs": "0"
+					},
+					"styles": {
+						"product_title": "#000000",
+						"product_price": "#00594c",
+						"product_description": "#000000",
+						"product_summary": "#000000",
+						"button_background": "#e7b517",
+						"button_color": "#000000",
+						"view_product_button_background": "#e7b517",
+						"view_product_button_color": "#000000",
+						"view_cart_button_background": "#e7b517",
+						"view_cart_button_color": "#000000",
+						"product_background": "#ffffff",
+						"show_product_shadow": "0",
+						"show_rounded_edges": "0"
+					}
+				}
+			</script>
+		</div>
+		<script async src="https://cdn.shoprocket.io/loader.js"></script>
+
+		<script data-embed="basket" type="application/json">
+			{
+				"store_id": "1235",
+				"publishable_key": "sr_live_pk_f8e7fa495cc9ecb09969886d0fb3590846d4",
+				"options": {
+					"basket_style": "bubble",
+					"basket_position": "bottom-right"
+				},
+				"includes": {
+					"show_pop_up_adding_item_to_cart": "1",
+					"show_terms_checkbox": "1",
+					"show_notes_field": "0",
+					"show_newsletter_opt_in": "0",
+					"show_image_thumbnails": "1",
+					"show_select_quantity": "1",
+					"show_overlay_when_open": "1",
+					"show_cart_count": "1",
+					"show_cart_total": "1"
+				},
+				"styles": {
+					"basket_background": "#ffffff",
+					"basket_color": "#e7b517",
+					"basket_text_color": "#000000",
+					"basket_counter_background": "#e7b517",
+					"basket_counter_color": "#000000",
+					"cart_background": "#ffffff",
+					"cart_text_color": "#666666",
+					"cart_button_background": "#e7b517",
+					"cart_button_color": "#000000",
+					"cart_links_text_color": "#808b97",
+					"cart_border_color": "#eeeeee"
+				}
+			}
+		</script>
+		<script async src="https://cdn.shoprocket.io/loader.js"></script>
+	</body>
+</html>
